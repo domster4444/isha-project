@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none !important;
+  }
+}
+
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #9b371e;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(155, 55, 30, 0.1) 0 0 0 1px inset, rgba(155, 55, 30, 0.1) 0 2px 5px 0, rgba(155, 55, 30) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.15;
+  outline: none;
+  overflow: hidden;
+  padding: 5px 15px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(155, 55, 30, 0.1) 0 0 0 1px inset, rgba(155, 55, 30, 0.02) 0 6px 15px 0, rgba(155, 55, 30, 0.1) 0 2px 2px 0, rgba(155, 55, 30, 0.3) 0 0 0 4px;
+}
+
+.builder-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+  .builder-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.hero-section {
+  padding: 0rem 2rem;
+  display: flex;
+  margin-top: 1rem;
+}
+.hero-section .division {
+  justify-content: center;
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.hero-section h1 {
+  color: #9b371e;
+  margin: 0;
+  font-weight: bolder;
+  font-size: 4rem !important;
+}
+
+@media only screen and (max-width: 1180px) {
+  .hero-section h1 {
+    font-size: 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-section .division {
+    width: 100%;
+  }
+  .hero-section h1 {
+    font-size: 2rem !important;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .hero-section h1 {
+    width: 28rem;
+  }
+}
+
+/* poppins */
+.playfair_medium {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.nav-link {
+  border-bottom: 2px solid transparent;
+}
+.nav-link:hover {
+  border-bottom: 2px solid #9b371e;
+}
+
+.job_card {
+  margin-top: 1rem;
+  transform: translateX(-50%);
+  min-width: 65rem;
+  margin-left: 50%;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  justify-content: space-between;
+  border-left: 4px solid #9b371e;
+  padding: 0.55rem;
+}
+
+@media only screen and (max-width: 1080px) {
+  .job_card {
+    min-width: 95%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .job_card {
+    flex-wrap: wrap;
+  }
+}
+
+.job_card .image-container {
+  margin: 1rem;
+  height: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: green;
+}
+.job_card .image-container img {
+  height: 100%;
+}
+.job-tag {
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 625px) {
+  .job-tag {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+
+.job-tag .tag {
+  margin: 0.25rem 0.2rem;
+  color: white;
+  height: fit-content;
+  padding: 0.15rem;
+  background-color: #58a9a7;
+  border-radius: 0.55rem;
+}
+
+.job-main-detail .sub-heading {
+  display: flex;
+}
+.job-main-detail .sub-heading h4 {
+  font-weight: bolder;
+}
+.job-main-detail .tag {
+  margin: 0rem 0.4rem;
+  color: white;
+  padding: 0.15;
+  border-radius: 1rem;
+}
+.job-main-detail .tag-black {
+  background: #9b371e;
+}
+.job-main-detail .tag-blue {
+  background: #58a9a7;
+}
+.sub-heading h4 {
+  color: #58a9a7;
+}
+.job-main-detail ul {
+  list-style: none;
+  display: flex;
+}
+.job-main-detail ul li {
+  color: #c1c1c1;
+  margin-right: 0.25rem;
+}
+
+.job-main-detail {
+  margin-left: 1rem;
+}
+
+.job-description {
+  margin-top: 1rem;
+  color: #9b371e;
+}
+* {
+  font-size: 1.8rem;
+}

@@ -1,0 +1,57 @@
+{
+<<<<<<< HEAD
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#b450f3",
+    "activityBar.background": "#b450f3",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#f3b24c",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#b450f3",
+    "statusBar.background": "#a020f0",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#b450f3",
+    "statusBarItem.remoteBackground": "#a020f0",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#a020f0",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#a020f099",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#A020F0",
+=======
+>>>>>>> b1cb94e857bc79b4f6fc5ee414351e7ce1425ad4
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+<<<<<<< HEAD
+=======
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#7a3502",
+    "activityBar.activeBorder": "#000000",
+    "activityBar.background": "#7a3502",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#000000",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#7a3502",
+    "statusBar.background": "#481f01",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#7a3502",
+    "statusBarItem.remoteBackground": "#481f01",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#481f01",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#481f0199",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#481f01",
+>>>>>>> b1cb94e857bc79b4f6fc5ee414351e7ce1425ad4
+  "hide-files.files": []
+}
